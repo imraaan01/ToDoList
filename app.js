@@ -68,8 +68,9 @@ app.get("/work", function (req, res) {
 
 // About page
 app.get("/about", function (req, res) {
-  res.render("about");
+  res.render("about", { listTitle: "About" });
 });
+
 
 // ✅ Render-friendly server port
 const PORT = process.env.PORT || 3000;

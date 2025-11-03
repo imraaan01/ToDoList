@@ -73,10 +73,6 @@ app.get("/about", function (req, res) {
 
 // ✅ Render-friendly server port
 const PORT = process.env.PORT || 3000;
-<<<<<<< HEAD
 app.listen(PORT, function () {
-=======
-app.listen(PORT, () => {
->>>>>>> 26403c7 (Fix: use dynamic port and start script)
   console.log(`Server started on port ${PORT}`);
 });
